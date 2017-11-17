@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(24, 24, 113);
+  color: white;
+}
+
+.header {
+  background: white;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.inline {
+  display: inline-block;
+}
+ .right {
+   right: 0;
+   position: absolute;
+ }
+
+ a {
+   text-decoration: none;
+   padding: 1em;
+   border-radius: 50%;
+   border: 1px solid slateblue;
+   background-color: white;
+ }
+
+ a:hover {
+   transition: background-color 0.3s ease-in-out;
+   background-color: salmon;
+ }

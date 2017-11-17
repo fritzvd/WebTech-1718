@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: salmon;
+  color: #333;
+  font-family: 'Helvetica Neue',sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  font-style: italic;
+  margin: 0.5em;
+}
+
+h1 {
+  border: 10px dashed skyblue;
+  margin: 1em;
+  padding: 1em;
+}
+
+div.container {
+  margin: auto;
+  width: 80%;
+}
