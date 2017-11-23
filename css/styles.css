@@ -1,20 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body {
   background: salmon;
   color: #333;
-  font-family: 'Helvetica Neue',sans-serif;
   font-size: 14px;
+
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+#subtitel {
+  background: black;
 }
 
 h1,
 h2 {
-  font-weight: 700;
-  font-style: italic;
+  font-family: 'Baskerville';
+  font-weight: 300;
   margin: 0.5em;
 }
 
@@ -22,9 +23,39 @@ h1 {
   border: 10px dashed skyblue;
   margin: 1em;
   padding: 1em;
+  background: salmon;
 }
+
+h1:hover {
+  background: lightslategray;
+}
+
+/* h1:before {
+  content: "~";
+}
+h1:after{
+  content:"~";
+} */
 
 div.container {
   margin: auto;
   width: 80%;
+}
+
+
+a:hover{
+  transition: box-shadow 1s ease-in-out;
+  background: black;
+  box-shadow: 10px 10px 10px black;
+}
+
+
+nav li {
+  background: url('../img/nav-bg.png');
+  padding: 1em;
+  display: inline;
+}
+
+nav li:first-child {
+  background: url('../img/nav-bg-left.png')
 }
