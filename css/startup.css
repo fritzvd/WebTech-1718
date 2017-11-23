@@ -11,24 +11,24 @@ body {
 
 .header {
   background: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
   max-height: 50px;
 }
 
-.inline {
-  display: inline-block;
-}
- .right {
-   right: 0;
-   position: absolute;
+ .menu {
+  display: flex;
  }
 
  a {
    text-decoration: none;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: darkslateblue;
    padding: 1em;
-   border-radius: 50%;
+   border-radius: 20px;
    border: 1px solid slateblue;
    background-color: white;
  }
