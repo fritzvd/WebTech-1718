@@ -5,7 +5,7 @@ body {
   color: #333;
   font-size: 14px;
 
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Libre Baskerville', 'Arial', sans-serif;
 }
 
 #subtitel {
@@ -14,7 +14,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Baskerville';
+  font-family: 'Libre Baskerville';
   font-weight: 300;
   margin: 0.5em;
 }
@@ -23,11 +23,11 @@ h1 {
   border: 10px dashed skyblue;
   margin: 1em;
   padding: 1em;
-  background: salmon;
+  background: lightcoral;
 }
 
 h1:hover {
-  background: lightslategray;
+  background: rgba(255, 255, 255, 0.4);
 }
 
 /* h1:before {
@@ -49,13 +49,17 @@ a:hover{
   box-shadow: 10px 10px 10px black;
 }
 
+nav {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.8)
+}
 
 nav li {
-  background: url('../img/nav-bg.png');
+  /* background: url('../img/nav-bg.png'); */
   padding: 1em;
   display: inline;
 }
 
 nav li:first-child {
-  background: url('../img/nav-bg-left.png')
+  /* background: url('../img/nav-bg-left.png') */
 }
